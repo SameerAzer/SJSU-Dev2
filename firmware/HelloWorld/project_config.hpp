@@ -4,5 +4,6 @@
 #pragma once
 
 #define SJ2_ENABLE_ANSI_CODES true
+#define SJ2_LOG_LEVEL SJ2_LOG_LEVEL_INFO
 
 #include "config.hpp"

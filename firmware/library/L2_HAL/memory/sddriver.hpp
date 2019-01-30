@@ -1197,3 +1197,5 @@ class Sd : public SdInterface
   /// @description     this SdInterface's instance of the GPIO chip select
   Gpio chip_select_external_pin_;
 };
+
+inline Sd onboard_card(Sd::DebugSdCard_t{});

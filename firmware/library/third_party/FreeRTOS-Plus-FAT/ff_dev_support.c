@@ -69,8 +69,8 @@
 #endif
 
 #if( ffconfigDEV_SUPPORT == 0 )
-	#error No use to include this module if ffconfigDEV_SUPPORT is disabled
-#endif /* ffconfigDEV_SUPPORT == 0 */
+	#warning No use to include this module if ffconfigDEV_SUPPORT is disabled
+#else
 
 struct SFileCache
 {
@@ -262,3 +262,4 @@ BaseType_t xIsDotDir = 0;
 	return 1024;
 }
 
+#endif /* ffconfigDEV_SUPPORT == 0 */

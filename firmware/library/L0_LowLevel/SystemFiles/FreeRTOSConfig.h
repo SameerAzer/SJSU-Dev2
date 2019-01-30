@@ -130,6 +130,7 @@ numeric value the higher the interrupt priority). */
 #define configEMAC_INTERRUPT_PRIORITY 5
 #define configUSB_INTERRUPT_PRIORITY 6
 
+#define configNUM_THREAD_LOCAL_STORAGE_POINTERS 5
 /*-----------------------------------------------------------
  * Macros required to setup the timer for the run time stats.
  *-----------------------------------------------------------*/
